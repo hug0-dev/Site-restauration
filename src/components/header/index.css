@@ -1,0 +1,44 @@
+p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 100px;
+  text-align: center;
+  color: azure;
+}
+
+
+
+
+
+
+header {
+  background-color: white; /* Change la couleur de fond en blanc */
+  color: #e9e2e2; /* Change la couleur du texte en gris foncé pour assurer le contraste */
+  padding: 10px;
+}
+
+header a {
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 18px;
+  color: #b4aeae; /* Change la couleur du lien en gris foncé pour assurer le contraste */
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* CSS pour les liens avec la classe "nav-link" */
+header a.nav-link {
+  position: relative;
+}
+
+header a.nav-link:hover::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: black; /* Garde la couleur de la ligne en noir pour le contraste */
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+}

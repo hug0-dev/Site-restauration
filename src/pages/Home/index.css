@@ -1,0 +1,22 @@
+div.background{
+
+    background-image: url('../../components/assets/images/resto.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  filter: brightness(50%);
+
+    width: 1500px;
+    height: 900px;
+}
+div.transbox{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: brightness(100%);
+    
+}
+
+
+.container-slider{
+    bottom: 0;
+}

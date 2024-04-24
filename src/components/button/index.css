@@ -1,0 +1,20 @@
+/* Style pour le bouton primaire */
+.button-primary {
+    background-color: #007bff; /* Couleur de fond bleue */
+    color: #fff; /* Couleur du texte blanche */
+    padding: 10px 20px; /* Espacement du bouton */
+    border: none; /* Supprime la bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur de la main au survol */
+  }
+  
+  /* Style pour le bouton secondaire */
+  .button-secondary {
+    background-color: #f8f9fa; /* Couleur de fond grise */
+    color: #333; /* Couleur du texte sombre */
+    padding: 10px 20px; /* Espacement du bouton */
+    border: 1px solid #ccc; /* Bordure légère */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur de la main au survol */
+  }
+  

@@ -1,0 +1,29 @@
+
+.slider{
+    height: 90vh;
+    /*overflow: hidden;*/
+}
+.description{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float:left;
+    text-align: center;
+}
+
+.img{
+
+    display: block;
+    float: right;
+    width: 500px;
+    height:500px;
+  /*  animation-name: slider;
+    animation-duration: 5s;
+    position: relative;
+}
+@keyframes slider{
+    0%{
+  left:0px;
+    }
+    100%{
+left: -1800px;
+    }*/
+}

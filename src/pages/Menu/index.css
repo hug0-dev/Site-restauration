@@ -1,0 +1,55 @@
+/* index.css */
+
+/* Style de la div contenant les cartes */
+.App {
+    display: flex;
+    flex-direction: column; /* Affiche les éléments en colonne */
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2; /* Couleur de fond pour la section */
+    overflow-x: auto; /* Ajoute une barre de défilement horizontale si nécessaire */
+  }
+  
+  /* Style des cartes (vous pouvez ajouter les styles des cartes ici) */
+  .Card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px; /* Définissez une largeur maximale pour les cartes */
+    width: 100%; /* Les cartes occupent la largeur disponible */
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Style de l'image dans la carte */
+  .Card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Style du titre de la carte */
+  .Card h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #333; /* Couleur du titre */
+  }
+  
+  /* Style du contenu de la carte */
+  .Card p {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0; /* Ajoutez une marge en haut et en bas pour séparer le titre du contenu */
+  }
+  
+  /* Effet de survol pour les cartes */
+  .Card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Style pour les titres "Entrée" et "Plat" */
+  .SectionTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+  }  

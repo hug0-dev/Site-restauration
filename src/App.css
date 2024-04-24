@@ -1,0 +1,40 @@
+/* App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.Links {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  background-color: black;
+}
+
+.Links a {
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 18px;
+  color: white;
+}
+
+.Links a:hover {
+  text-decoration: underline;
+}
+
+/* Ajoutez le CSS ci-dessous pour les liens uniquement */
+.Links a.nav-link {
+  position: relative;
+}
+
+.Links a.nav-link:hover::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+}

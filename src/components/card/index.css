@@ -1,0 +1,40 @@
+/* Styles pour les cartes */
+.card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin-top: 8px;
+}
+
+/* Styles pour les cartes horizontales (côte à côte) */
+.card.horizontal {
+  display: inline-block;
+  margin-right: 16px; /* Espace entre les cartes horizontales */
+}
+
+/* Styles pour les cartes verticales (empilées) */
+.card.vertical {
+  display: block;
+  margin-bottom: 16px; /* Espace entre les cartes verticales */
+}
+
+/* Style pour le bouton primaire */
+button {
+  background-color: #007bff; /* Couleur de fond bleue */
+  color: #fff; /* Couleur du texte blanche */
+  padding: 10px 20px; /* Espacement du bouton */
+  border: none; /* Supprime la bordure */
+  border-radius: 5px; /* Coins arrondis */
+  cursor: pointer; /* Curseur de la main au survol */
+}
